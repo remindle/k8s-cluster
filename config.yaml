@@ -1,6 +1,6 @@
 ---
 #hetzner_token: ""
-cluster_name: "Remindle-K8S"
+cluster_name: "remindle-k8s"
 kubeconfig_path: "/cluster/kubeconfig"
 k3s_version: v1.22.3+k3s1
 public_ssh_key_path: "~/.ssh/id_ed25519.pub"
@@ -15,5 +15,5 @@ masters:
   instance_count: 1
 worker_node_pools:
 - name: small
-  instance_type: cx41
+  instance_type: cx21
   instance_count: 1
